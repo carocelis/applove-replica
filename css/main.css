@@ -71,16 +71,17 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+
 .barra{ /*barra fija*/
   width: 1200px;
-  background-color: white;
   margin-right: auto;
-  margin-left: 9px;
-  margin-top: 0px;
-  padding-left: 60px;
+  margin-left: auto;
+  padding-left: 14px;
   padding-right: 14px;
+  background-color: white;
+  margin-top: 0px;
   position: fixed; /*fijar la posición de la barra*/
-}
+  }
 .barra a{ 
  text-transform: uppercase;
  font-family: 'Raleway', sans-serif;
@@ -89,18 +90,13 @@ a:hover {
 }
 .barra img{
   max-width: 70px; /*definir tamaño del logo guardando su proporción*/
-  margin-left: 470px;
+  margin-left: 550px;
 }
-.seccion1{
+.container .texto1{
   background-image: url(../assets/images/bg-home.jpg); /*imagen de fondo*/
   background-repeat: no-repeat;
   background-position: center;
   height: 590px;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
 }
 .texto1{
   padding-top: 120px;
@@ -125,13 +121,8 @@ a:hover {
 .texto1 a:hover{
   color: #E95853;
 }
-.seccion2{
+.container .texto2{
   background-color: #E95853;;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
 }
 .texto2{
   text-align: center;
@@ -157,12 +148,7 @@ a:hover {
   max-width: 200px; 
 
 }
-.seccion3{
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+.container .texto3{
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   text-align: center;
